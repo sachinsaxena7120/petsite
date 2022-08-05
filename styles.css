@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mycontainer {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid #c3c3c3; */
+    display: flex;
+}
+
+.mycontainer1 {
+    width: 100%;
+    flex-basis: 30%;
+    height: 100vh;
+    background: linear-gradient(rgb(192, 98, 192), rgb(91, 165, 214));
+    padding: 40px 25px;
+    color: #fff;
+    position: relative;
+}
+
+.myinner h2 {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 10px;
+}
+
+.myinner p {
+    margin-bottom: 10px;
+}
+
+.mycontainer1 .icon {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.mycontainer2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 70%; */
+    /* height: 100vh; */
+}
+
+.inner h2 {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.inner p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.inner span {
+    color: rgb(162, 162, 236);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label.container {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+input[type=email],
+input[type=number],
+input[type=text],
+input[type=password] {
+    display: block;
+    width: 100%;
+    /* margin-left: 20px; */
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 10px 5px;
+    font-size: 1em;
+    /* font-weight: 600; */
+    /* border: none; */
+    outline: none;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    background: linear-gradient(-45deg, rgb(192, 98, 192), rgb(91, 165, 214));
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 7px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.4);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.conatiner {
+    display: inline-block;
+}
+
+.fa-brands {
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+.facebook {
+    transition: transform 1s ease 0s;
+    background-color: #4e71a8;
+    color: #ffffff;
+}
+
+.twitter {
+    transition: transform 1s ease 0s;
+    background-color: #55acee;
+    color: #ffffff;
+}
+
+.instagram {
+    transition: transform 1s ease 0s;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: #ffffff;
+}
+
+.linkedin {
+    transition: transform 1s ease 0s;
+    background-color: #55acee;
+    color: #ffffff;
+}
+
+.youtube {
+    transition: transform 1s ease 0s;
+    background-color: #FF0000;
+    color: #ffffff;
+}
+
+.facebook:hover,
+.twitter:hover,
+.instagram:hover,
+.linkedin:hover,
+.youtube:hover {
+    transform: rotate(360deg);
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <script src="https://kit.fontawesome.com/3e00a6d6cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <div class="mycontainer">
+        <div class="mycontainer1">
+            <div class="myinner">
+                <h2>Get in Touch</h2> <br>
+                <p>Welcome to Our Website. You can resister for more information.</p> <br>
+                <i class="fa-solid fa-envelope"></i><span style="margin-left: 10px;">Chat to us</span>
+                <p style="margin-left: 20px;">This is our offically mail.</p>
+                <p style="margin-left: 20px;">sachin.saxena24460@gmail.com</p>
+                <i class="fa-solid fa-location-dot"></i><span style="margin-left: 10px;">Our Location</span>
+                <p style="margin-left: 20px;">Kalyan puri</p>
+                <p style="margin-left: 20px;">Delhi 110091</p>
+                <span><i class="fa-solid fa-phone"></i></span>
+                <span style="margin-left: 10px;">Phone</span>
+                <p style="margin-left: 20px;">Mon to Fri 10 AM to 6 PM</p>
+                <p style="margin-left: 20px;">+918800724460</p>
+                <div class="icon">
+                    <p style="font-size: 20px;">
+                        <a href="http://www.facebook.com"><i class=" facebook fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="twitter fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/s"><i class="instagram fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="linkedin fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="youtube fa-brands fa-youtube"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mycontainer2">
+            <div class="inner">
+                <h2>Level up to brand</h2>
+                <p>you can reach us anytime via <span>sachin.saxena24460@gmail.com</span></p>
+                <form action="" method="post">
+                    <label for="">Name</label>
+                    <input type="text" name="name" value="" placeholder="Name" required>
+                    <label for="">Email</label>
+                    <input type="email" name="email" placeholder="Email" pattern="^[^ ]+@[^ ]+\.[a-z]{2,6}$" title="Invalid email address" required>
+                    <span style="color: red;"></span>
+                    <label for="">Password</label>
+                    <input type="password" name="password" placeholder="Password" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" required>
+                    <label for="">Confirm Password</label>
+                    <input type="password" name="cpassword" placeholder="Confirm_Password">
+                    <span style="color: red;"></span>
+                    <!-- <div class="g-recaptcha" data-sitekey="6LeY6y0hAAAAAAr2XzbGJ31xhoScyRSocgOsV4qe"></div> -->
+                    <!-- <span style="color: red;"><?php echo $errorCaptcha ?></span> -->
+                    <button class="btn" name="signup">Signup</button>
+                </form>
+                <p>You are already Resister You can <a href="login.php">Login.</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

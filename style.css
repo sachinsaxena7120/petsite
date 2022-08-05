@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:820px) {
+    .d-block {
+        height: 250px;
+    }
+}
+
+.hello {
+    color: orange;
+    text-align: center;
+    font-size: 60px;
+}
+
+@media screen and (max-width:420px) {
+    .hello {
+        color: green;
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .schin img {
+        width: 350px;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .sachin1 {
+        padding-top: 10px;
+        font-weight: bold;
+    }
+}
+
+.schin img:hover {
+    /* transform: translateY(-30px); */
+    transform: scale(-1);
+    transition: 4s;
+    opacity: 1;
+}
+
+.schin img {
+    opacity: 0.6;
+}
+
+.nav-item:hover {
+    border: 4px solid white;
+}
+
+.nav-link:hover {
+    color: white;
+    transition: 2s;
+    /* text-align: center; */
+}
+
+.myheading {
+    color: red;
+    font-size: 50px;
+}
+
+.background {
+    background-image: url("background.jpg");
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+}
